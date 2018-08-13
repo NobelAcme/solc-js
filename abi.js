@@ -16,7 +16,7 @@ function update (compilerVersion, abi) {
       }
     } else if (item.type === 'fallback') {
       hasFallback = true;
-    }
+    }else if(){};
 
     if (item.type !== 'event') {
       // add 'payable' to everything
