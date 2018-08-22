@@ -100,7 +100,7 @@ function translateJsonCompilerOutput (output, libraries) {
     if (gasEstimates['internal']) {
       translatedGasEstimates['internal'] = translateGasEstimates(gasEstimates['internal']);
     }
-    if (gasEstimates['external']) {
+   if (gasEstimates['external']) {
       translatedGasEstimates['external'] = translateGasEstimates(gasEstimates['external']);
     }
 
